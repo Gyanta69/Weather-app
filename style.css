@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 body{
-     background-image: linear-gradient(to bottom, #9ecfef, #e4a929);
+     background-image: linear-gradient(to bottom, #9ecfef, #0004eb);
      background-repeat: no-repeat;
      height: 100vh;
 }
 .card{
     width: 90%;
     max-width: 500px;
-    background-image: linear-gradient(45deg, #3074a1, #e4a929);
+    background-image: linear-gradient(45deg, #263a46, #6085d4);
     color: white;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -42,11 +42,16 @@ body{
 .search button{
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: white;
     width: 60px;
     height: 50px;
     cursor: pointer;
     border-radius: 50px;
+}
+.search button:hover{
+    transition: .3s all ease-in-out;
+    background-color:#8bc6ed;
+    color: white;
 }
 .search i{
     /* background-size: contain; */
@@ -57,16 +62,19 @@ body{
     margin-top: 60px;
 }
 .weather h1{
-    margin-top: 20px;
+    margin-top: 5px;
+    font-size: 45px;
 }
 .weather h2{
     margin-top: 10px;
+    font-size: 40px;
 }
 .details{
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
     margin-top: 50px;
+    display: none;
 }
 .details-extra{
     display: flex;
@@ -98,9 +106,9 @@ body{
 }
 .box {
     position: absolute;
-    width: 25px;
-    height: 25px;
-    /* border-radius: 50%; */
+    width: 5px;
+    height: 5px;
+    border-radius: 25%;
     background-color: transparent;
     border: 4px solid rgba(255,255,255,0.8);
     z-index: 1;
@@ -189,6 +197,192 @@ body{
     z-index: 2;
     animation: animate 7s linear infinite;
 }
+.box:nth-child(15){
+    top: 20%;
+    right: 35%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(16){
+    top: 50%;
+    right: 70%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(17){
+    top: 80%;
+    right: 10%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(18){
+    top: 17%;
+    left: 42%;
+    z-index: 2;
+    animation: animate 10s linear infinite;
+}
+.box:nth-child(19){
+    top: 20%;
+    left: 50%;
+    z-index: 1;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(20){
+    top: 57%;
+    left: 6%;
+    z-index: 2;
+    animation: animate 9s linear infinite;
+}
+.box:nth-child(21){
+    top: 80%;
+    left: 60%;
+    z-index: 2;
+    animation: animate 10s linear infinite;
+}
+.box:nth-child(22){
+    top: 97%;
+    left: 10%;
+    z-index: 2;
+    animation: animate 6s linear infinite;
+}
+.box:nth-child(23){
+    top: 30%;
+    left: 70%;
+    z-index: 1;
+    animation: animate 6s linear infinite;
+}
+.box:nth-child(24){
+    top: 58%;
+    left: 80%;
+    z-index: 1;
+    animation: animate 15s linear infinite;
+}
+.box:nth-child(25){
+    top: 39%;
+    left: 25%;
+    z-index: 1;
+    animation: animate 16s linear infinite;
+}
+.box:nth-child(26){
+    top: 10%;
+    left: 25%;
+    z-index: 1;
+    animation: animate 9s linear infinite;
+}
+.box:nth-child(27){
+    top: 66%;
+    left: 80%;
+    z-index: 1;
+    animation: animate 12s linear infinite;
+}
+.box:nth-child(28){
+    top: 77%;
+    left: 10%;
+    z-index: 2;
+    animation: animate 8s linear infinite;
+}
+.box:nth-child(29){
+    bottom: 19%;
+    right: 60%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(30){
+    top: 28%;
+    right: 10%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(31){
+    top: 25%;
+    right: 79%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(32){
+    top: 20%;
+    right: 35%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(33){
+    top: 50%;
+    right: 69%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(34){
+    top: 32%;
+    right: 10%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(35){
+    bottom: 2%;
+    left: 2%;
+    z-index: 1;
+    animation: animate 15s linear infinite;
+}
+.box:nth-child(36){
+    bottom: 3%;
+    right: 45%;
+    z-index: 1;
+    animation: animate 16s linear infinite;
+}
+.box:nth-child(37){
+    bottom: 10%;
+    right: 17%;
+    z-index: 1;
+    animation: animate 9s linear infinite;
+}
+.box:nth-child(38){
+    bottom: 66%;
+    left: 80%;
+    z-index: 1;
+    animation: animate 12s linear infinite;
+}
+.box:nth-child(39){
+    top: 89%;
+    left: 80%;
+    z-index: 2;
+    animation: animate 8s linear infinite;
+}
+.box:nth-child(40){
+    bottom: 19%;
+    right: 41%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(41){
+    top: 49%;
+    right: 69%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(42){
+    bottom: 25%;
+    right: 79%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(43){
+    bottom: 20%;
+    left: 95%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(44){
+    top: 77%;
+    right: 80%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
+.box:nth-child(45){
+    top: 29%;
+    right: 39%;
+    z-index: 2;
+    animation: animate 7s linear infinite;
+}
 @keyframes animate{
    0%{
     transform: scale(0) translateY(0) rotate(0);
@@ -199,3 +393,15 @@ body{
     opacity: 0;
    }
 }
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+}
+.weather-image{
+   padding-left: 110px;
+    display: none;
+}
+
